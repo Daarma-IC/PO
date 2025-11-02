@@ -7,7 +7,7 @@ const HomePage = ({ onWidgetClick }) => {
     <div className="homepage-container">
       <header className="homepage-header">
         <h1 className="homepage-title">Selamat Datang di Toko Kami</h1>
-        <p className="homepage-subtitle">Jangan lewatkan kesempatan untuk mendapatkan produk eksklusif kami.</p>
+        <p className="homepage-subtitle">Jangan lewatkan kesempatan untuk mendapatkan produk nikmat kami.</p>
       </header>
       
       <div className="registration-cards-wrapper">
@@ -19,7 +19,7 @@ const HomePage = ({ onWidgetClick }) => {
           </div>
           <h2 className="widget-title">Pre-Order Dibuka!</h2>
           <p className="widget-description">
-            Klik di sini untuk menjadi yang pertama memiliki produk terbaru kami. Stok terbatas!
+            Klik di sini untuk melakukan pemesanan produk kami. Stok terbatas!
           </p>
           <div className="widget-button">
             Pesan Sekarang
@@ -128,9 +128,9 @@ const PreOrderPage = ({ onBack, onSuccess }) => {
             <label htmlFor="product">Pilihan Produk</label>
             <select id="product" onChange={handleInputChange} required>
               <option value="">-- Pilih Produk --</option>
-              <option value="Dimsum Colleyah">Dimsum Colleyah</option>
-              <option value="Dimsum Spesial">Dimsum Spesial</option>
-              <option value="Produk C - Paket Bundel">Produk C - Paket Bundel</option>
+              <option value="Dimsum Colleyah">Dimsum Non Mentai - Rp 18.000</option>
+              <option value="Dimsum Spesial">Dimsum With Mentai - Rp 20.000</option>
+              <option value="Produk C - Paket Bundel">Paket Bundel Special - Rp 25.000</option>
             </select>
           </div>
           <div className="qris-container">
